@@ -6,13 +6,13 @@ public class DaireninAlanCevre {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Yarı Çapı Giriniz: ");
-        r = input.nextInt();
+        r = input.nextDouble();
 
         tumalan = pi * r * r;
         tumcevre = pi * 2 * r;
 
         System.out.print("Alanını Bulmak istediğiniz açı: ");
-        a = input.nextInt();
+        a = input.nextDouble();
         
         alan = (tumalan*a)/360;
         cevre = (tumcevre*a)/360;
